@@ -1,0 +1,29 @@
+ul <ul { /* el segundo ul decimos q valle al primero*/
+	list-style-type:square; ;/* que lista queremos */
+	list-style-position: inside;
+
+}
+ol {
+	list-style-type: upper-latin;
+	list-style-type: lower-alpha;
+}
+.menu {
+	width: 100%;
+	background: #000;
+	list-style: none;/*quieta el numero y deja los espacios*/
+	margin: 0;
+	padding: 0;
+}
+/* pondremos uno al lado del otro*/
+.menu  li {
+	display: inline-block;
+}
+.menu li a {
+		padding: 10px 20px ;
+		display:  inline-block;
+		color: #fff;
+}
+.menu li a:hover {
+	background: #ccc;
+	color :#000;
+}

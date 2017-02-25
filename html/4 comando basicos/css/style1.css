@@ -1,0 +1,24 @@
+
+p { 
+	color:#f00; 
+}
+
+body {
+	width: 500px;
+	background: #ffa;
+	-moz-column-count:2 300px ;
+	-webkit-column-count:2 300px;
+	background-color: rgba(77,65,30,0.);
+}
+article {
+	-webkit-column-count:3;
+	-webkit-column-gap:15px;
+	-webkit-column-rule:2px solid red;
+}
+ body header h1{
+	background: #454df4;
+	width: 500px;
+	height: 200px;
+	border-top-left-radius: 5px;
+	border-top-right-radius:  ;
+}

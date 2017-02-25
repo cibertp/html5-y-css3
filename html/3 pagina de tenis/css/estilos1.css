@@ -1,0 +1,146 @@
+* {
+	border:0;
+	margin:0;
+	padding: 0;
+}
+body {
+	background: #cccccc;
+
+}
+#contenedor {
+	box-shadow: 2px 10px rgba(255,255,255,0.8);
+	border-radius: 5px;
+	border: solid;
+	margin-top: 10px;
+	background: #fff;
+	height: 1050px;
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+}
+header, #banner,#noticias,#tienda,#marcas {
+	background:  #7657FF;
+	width: 780px;
+	height:100; 
+}
+#banner {
+	background: #fff;
+	height: 300px;
+}
+#noticias {
+	background: #fff;
+	height: 225px;
+	width: 760 ;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	text-align: center;
+}
+#tienda {
+	background: #666;
+	height: 190px;
+}
+#marcas {
+	background: #666;
+	height: 220px;
+	
+}
+
+footer {
+	background:  #7657FF;
+	width: 780px;
+	height: 45px;
+	padding-top: 25px;
+	
+}
+/* entraremos al cuerpo de pagina dentro del secction*/
+#noticias #noticias1 {
+	background: #999;
+	width:250px;
+	height: 220px;
+	display: inline-block;
+	vertical-align: top;
+}
+#noticias #noticias2 {
+	background: #3DCA2D;
+	width: 250px;
+	height: 220px;
+	display: inline-block;
+	vertical-align: top;
+}
+#noticias #noticias3 {
+	background:#CA6C2D;
+	width: 250px;
+	height: 220px;
+	display: inline-block;
+	vertical-align: top;
+}
+.espacio {
+	width: 780px;
+	height: 10px;
+	
+
+}
+#tienda #producto1 {
+	background: #C05C19;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 6px;
+
+}
+
+#tienda #producto2 {
+	background:#76360B;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 6px;
+
+}
+#tienda #producto3 {
+	background: #F86401;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 6px;
+}
+#tienda #producto4 {
+	background: #9C1B40;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	vertical-align: top
+	margin: 0px 6px;
+}
+footer  p {
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+
+}
+header {
+	width: 765px;
+	height: 100px;
+	padding: 5px 15px;
+}
+
+header  h1{
+	background: #1495C4;
+	width: 250px;
+	height: 100px;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+header #menu	{
+	background: #000;
+	width: 440px;
+	height: 100px;
+	display: inline-block;
+}
+
+

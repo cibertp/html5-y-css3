@@ -1,0 +1,19 @@
+body {
+	/*nos permite un valor fijo q no modifique nada*/
+	
+	font-size: 18px;
+
+
+}
+p {
+	font-size: 1em;
+}
+div p {
+	font-size: 1em;
+}
+
+div {
+	/* background: #FA0001; */
+	color:#affaaa;
+	width:50%;
+}

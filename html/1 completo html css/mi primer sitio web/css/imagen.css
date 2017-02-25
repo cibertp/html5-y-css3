@@ -1,0 +1,16 @@
+img {
+	height: auto;
+	width: 300px;
+	/*margin y dispay juntos son los q ponen centrado los dos*/
+	margin:  auto;
+	display: block;
+	border-radius: 50px;
+	box-shadow: 5px 5px 0px #001;
+	padding:10px ;
+	border: 1px solid #000;
+}
+div {
+	background:  #ccc;
+	height: auto;
+
+}

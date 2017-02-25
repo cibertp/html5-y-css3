@@ -1,0 +1,62 @@
+
+	body {
+	background-image : url(imagenes/imagen.jpg);
+	background-repeat:no-repeat;
+	background-attachment : fixed ;
+	background-position:  center center; para el fondo
+	background-position : 20% ; 
+	}
+
+	
+#p1 {
+	width:600px;
+	color : #AE1067;
+	line-height: 30px;
+	text-align:center;/*justify*/
+	text-decoration: overline;
+	text-indent: 5% ;
+	text-transform : uppercase;/*capitalize*/
+	letter-spacing :-1 ;
+	word-spacing : 10px;
+}
+a {
+	color : #E61387;
+}
+a:link {
+	color:aqua;
+	
+}
+a: visited {
+	color: red;
+}
+a :hover {
+	color:#32F81C;
+}
+a : active {
+	color : lime;
+}
+
+#p1 : first-lime{
+	font-size :small;
+	color:green;
+	
+}
+p:before {
+	
+}
+p :after {
+	content:"se acabo"
+	color:lime;
+}
+p {
+	width :500px;
+	clear:boot
+}
+img {
+	float:right;
+}
+
+
+
+
+

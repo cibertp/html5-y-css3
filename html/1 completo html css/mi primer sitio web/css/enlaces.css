@@ -1,0 +1,54 @@
+a {
+	font-size: 20px;/*tamaño de la letra*/
+	color: #000;/*color negro*/
+	text-decoration:none ;/*quita el subrrayado*/
+	margin:10px 10px 10px 10px;
+	/*seudoclase sonlas q nos permite aplicar los enlases
+	tiene cuatro de enlaces
+	enlaces visitados
+	enlaces no visitados
+	eslaces joves
+	enlaces color*/
+
+}
+/* color q vamos decir al enlaces q no visistamos*/
+a:link {
+	color: #DF1338;
+	font-size: 10PX;
+	padding: 10px;
+}
+a:hover{
+	text-decoration: underline;
+	font-size:2o px;
+	background : #000;
+	color: #fff;
+
+}
+/*q pase cuando los das clik*/
+a:active{
+	background : #ff8000;
+
+}
+a:visited{
+	color: #afa;
+	text-decoration:  line-through;
+}
+
+/*enlace como botones */
+a {
+	font-size: 20px;
+	text-decoration: none;
+	background: #3ba7e1;
+	display:inline-block;
+	color :#aaf;
+	box-shadow: 0px 3px 2px 1px ;/*sirve para dar sonbra a los enlementos*/
+	padding: 10px 10PX; 
+}
+a :hover {
+	box-shadow: 0px 2px 2px 1px ;
+	background: 
+}
+a :active {
+
+}
+

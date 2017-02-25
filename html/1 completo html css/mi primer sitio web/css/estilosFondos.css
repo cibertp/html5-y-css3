@@ -1,0 +1,9 @@
+div {
+	background: url(../imagenes/fondo.jpg);/*se repite*/
+	height: 30px;
+
+	background-repeat: no-repeat-y;
+	/*x representa solo orisontal*/
+	background-attachment: scroll;
+	background-position: 500px 200px;
+}

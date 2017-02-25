@@ -1,0 +1,14 @@
+
+div {
+	width: 1000px;
+	background:#f80000;
+	color: 000000;
+	height: 100px;
+	margin: 20px 50px;
+	padding: 30px;/*margen internos*/
+	border :10px solid #000;/*para poner border he*/
+	border: 10px dotted #000; /* para pner con puntitos*/
+	border :10px ;
+	display:  inline-block; /*por defecto son bloques i  */
+
+}

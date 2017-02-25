@@ -1,0 +1,48 @@
+form {
+	 width: 25%;
+	 border : solid #ccc;
+	 margin: 30px;
+	 padding: 10px;
+	 color: #123;
+	
+}
+
+label {
+	font-size: 12px;
+	display: block;
+	width: 100%;
+
+}
+textarea {
+	/*
+	resize: horizontal;/*se puede cambiar el tamaño
+	resize: both; para anbos lados*/
+
+		resize: vertical;
+		max-height: 300px;
+		min-height :100px;
+}
+input,textarea	{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border :1px solid #ccc;
+}
+
+ input:focus,textarea:focus {
+	border:1px solid #079191;
+}
+input[type="submit"] {
+	margin-bottom: 0;
+	background: #1D3434;
+	color: #5BBF26;
+	border: none;
+}
+
+input[type="submit"]:hover {
+	background: #1D3499;
+	cursor: pointer;
+}

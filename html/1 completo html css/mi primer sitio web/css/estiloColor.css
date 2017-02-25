@@ -1,0 +1,19 @@
+h1{
+	/*color */
+	color:redad; 
+}
+h2{
+	color:rgb(53,131,144);
+}
+/* color exagecimasl*/
+h2{
+	color: #54242;
+}
+/*CON PORSENTAJE*/
+h3{
+	color: 12%;
+}
+/*se ultiliza para dar una opacidad es decir 0 y 1 el 1 100%*/
+h2{
+	color: rgba(200,15,164,0.5);
+}

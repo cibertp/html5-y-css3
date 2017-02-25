@@ -1,0 +1,25 @@
+body {
+	text-align: center;	
+}
+#principal {
+	display: block;
+	width: 500px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid #999999;
+	background: #dddddd;
+	
+
+	border-radius: 20px/ 15px;
+	box-shadow:(150,150,150) 5px 5px 5px;
+	box-shadow: [color-offset-x, offset-y, blur-radius-spread inset]
+	/*bluc- radio es un enfoque 
+	sperad asta donde se ira la sombra
+	inset
+	*/
+	/*font-face uso de fondos */
+}
+
+#titulo  {
+	font: bold 36px verdana , sans-serif ;
+}
